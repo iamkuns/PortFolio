@@ -1,0 +1,154 @@
+.page{
+
+  margin: 0;
+  height: 100vh;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: linear-gradient(#e66465, #9198e5);
+}
+header{
+  background-color: #e66465;
+  height: 50px;
+  display: flex;
+  justify-content:space-between;
+  padding: 10px 20px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo-section{
+  display: flex;
+  flex-direction: column;
+}
+.logo{
+  font-size: xx-large;
+  font-weight: bold;
+}
+.subtitle{
+  margin-top: 2px;
+}
+.navigation{
+  display:flex;
+  gap: 20px;
+}
+.navigation a{
+  margin-left: 20px;
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+}
+hr{
+  height: 1px;
+  border: none;
+  margin-top: 0%;
+  background-color: black;
+}
+section{
+  width: 50%;
+  height: 450px;
+  margin: 2% 20%;
+  display: flex;
+  flex-direction: column;
+}
+.profile{
+  display: flex;
+  height: 160px;
+}
+.profile #prof-pic img{
+  width: 300px;
+  border-radius: 60%;
+  object-fit: cover;
+  margin-right: 30px;
+}
+.profile #prof-info h2{
+  font-size: xx-large;
+}
+.tabs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 35%;
+}
+.tabs a{
+  display: flex;
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #e66465;
+  font-size: larger;
+  margin:5px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.footer-section {
+  margin: 10px;
+  flex: 1;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer-section p, .footer-section a {
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.footer-section a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #444;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter input[type="email"] {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e57373;
+  color: white;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #d45c5c;
+}
